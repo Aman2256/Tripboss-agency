@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TripBoss</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Trip<span>Boss</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Leave Your Footprints</h1>
+                    <p>Exploring is like opening a door to a whole new world of exciting experiences. It's about going to places you've never
+                         been before and discovering things you've never seen. Think of it as an adventure where you get to learn about different cultures, meet new people, and try new things.
+                         When you explore, you're like a detective uncovering hidden treasures and making memories that will stay with you forever.</p>
+                </div>
+                <div class = "header-form">
+                    <h2>Choose your Travel location:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Destination name">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Price ($)">
+                        <input type="submit" class = "btn" value = "Search">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about some places before your travel</span>
+                    <h2 class = "lg-title">featured places</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-reo-de-janeiro-brazil.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Reo De Janeiro, Brazil
+                            </span>
+                            <div>
+                                <p class = "text">Rio de Janeiro, Brazil, is a vibrant city that captures the essence of both relaxation and excitement. With its golden beaches, like Copacabana and Ipanema, you can soak up the sun and enjoy the stunning coastal views. The iconic Christ the Redeemer statue stands tall, offering a breathtaking panoramic view of the city from Corcovado Mountain. Rio's lively atmosphere comes alive during Carnival, a dazzling celebration of music, dance, and colorful parades that brings people together from all over the world. From samba rhythms to lush rainforests, Rio de Janeiro is a city that promises a blend of natural beauty and lively culture that's truly captivating.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-north-bondi-australia.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                North Bondi, Australia
+                            </span>
+                            <div>
+                                <p class = "text">North Bondi, Australia, is a coastal paradise that captures the heart with its stunning beauty. The golden sands and turquoise waters of Bondi Beach offer a perfect spot to relax and enjoy the sun. The Bondi to Coogee Coastal Walk presents breathtaking views of the coastline, cliffs, and vibrant marine life. The laid-back atmosphere of North Bondi is complemented by trendy cafes, where you can savor delicious local cuisine while watching surfers catch the waves. Whether you're into beach lounging, scenic hikes, or simply soaking in the coastal charm, North Bondi invites you to experience the Australian coastal lifestyle in all its glory.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-berlin-germany.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Berlin, Germany
+                            </span>
+                            <div>
+                                <p class = "text">Berlin, Germany, is a city where history and modernity seamlessly blend. The remnants of the Berlin Wall stand as a poignant reminder of its past, while the bustling neighborhoods like Kreuzberg and Mitte exude a creative and cosmopolitan vibe. Iconic landmarks like the Brandenburg Gate and the Reichstag Building tell stories of a city's evolution. Berlin's art scene is captivating, with museums like the Pergamon Museum showcasing treasures from around the world. In every corner, Berlin offers a dynamic mix of history, culture, and innovation waiting to be explored.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-khwaeng-wat-arun-thailand.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Khwaeng wat arun, thailand
+                            </span>
+                            <div>
+                                <p class = "text">Khwaeng Wat Arun, commonly known as Wat Arun, is a stunning Buddhist temple located along the Chao Phraya River in Bangkok, Thailand. Its distinctive spires, adorned with intricate porcelain designs, make it a picturesque landmark on the city's skyline. Wat Arun's history dates back to the 17th century, and it's renowned for its significant cultural and religious importance. Visitors can climb the steep steps of the central prang for panoramic views of the river and the surrounding area, making it a must-visit destination for those exploring Bangkok's rich heritage.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-rome-italy.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Rome, Italy
+                            </span>
+                            <div>
+                                <p class = "text">Rome, Italy, stands as a timeless masterpiece of history and culture. The Colosseum, an ancient amphitheater, reflects the grandeur of the Roman Empire. Vatican City's St. Peter's Basilica and the Sistine Chapel house some of the world's most iconic artworks. The city's cobbled streets lead to the Trevi Fountain and the Spanish Steps, each with its own story to tell. With its blend of ancient wonders and modern vibrancy, Rome offers a captivating journey through the ages.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-fuvahmulah-maldives.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                fuvahmulah, maldives
+                            </span>
+                            <div>
+                                <p class = "text">Fuvahmulah, Maldives, is a hidden gem of natural beauty. Surrounded by the Indian Ocean, it boasts pristine beaches and vibrant coral reefs. The island's unique freshwater lake and diverse wildlife add to its charm. Fuvahmulah offers a tranquil escape, away from the typical Maldivian experience, making it a paradise for those seeking serenity and untouched landscapes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- services section -->
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about services that we offer</span>
+                    <h2 class = "lg-title">Our services</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Luxurious Hotel</h3>
+                        <p class = "text">Welcome to our world of luxury where we offer the finest accommodations. Our upscale hotel promises lavish comforts, impeccable service, and a truly indulgent experience. From elegant rooms to top-notch amenities, we provide a haven of sophistication and relaxation for your unforgettable stay.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Trave Guide</h3>
+                        <p class = "text">Embarking on a new adventure? Let us be your ultimate travel guide. We specialize in crafting tailor-made experiences that match your desires and interests. With our in-depth destination knowledge, we curate every detail to ensure your journey is seamless and unforgettable. </p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Suitable Price</h3>
+                        <p class = "text">Our commitment is to provide you with exceptional travel experiences at a price that suits your budget. We believe that unforgettable journeys need not come with a hefty price tag. Our curated packages are designed to offer you the best value without compromising on quality.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- testimonials section -->
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">what our clients say about us</span>
+                    <h2 class = "lg-title">testimonials</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">"Unforgettable Tour Experience: Highly Recommended!"
+
+                            Our recent tour exceeded all expectations! From start to finish, every detail was meticulously planned, ensuring a seamless and enjoyable journey. The knowledgeable guides added a layer of depth to each destination, providing insights that enhanced our understanding and appreciation. </p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-1.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Kevin Wilson</h3>
+                                <p class = "text">Trip to Brazil</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">We Had an Amazing Tour: Totally Worth It!"
+
+                            Our recent tour was even better than we hoped! Everything was planned so well, from the beginning to the end. The guides knew so much about the places we visited, and that made the tour really interesting. We got to see famous places and also some special ones that not everyone knows about.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-2.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Ben Davis</h3>
+                                <p class = "text">Trip to Maldives</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">"We had a fantastic tour – it was absolutely worth it!
+
+                            Our recent tour was even better than we hoped for. Everything was planned out perfectly, from the beginning to the end of the trip. The guides were really knowledgeable about the places we visited, which made the tour really interesting and informative. We got to see well-known spots as well as some hidden gems that not everyone knows about. The places we stayed in and the way we got around were also great. The trip was really comfortable and enjoyable. </p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Jaura Jones</h3>
+                                <p class = "text">Trip to Thailand</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of testimonials section -->
+
+        <!-- video section -->
+        <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "videos/video-section.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!-- end of video section -->
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Trip<span>Boss</span>
+                    </a>
+                    <p class = "text">Welcome to [Your Travel and Tour Agency Name], where your journey becomes our passion. As a dedicated travel and tour agency, we are committed to creating experiences that go beyond the ordinary. With our deep knowledge of destinations and meticulous planning, we offer a range of exciting travel options that cater to every kind of explorer..</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">Thailand</a></li>
+                        <li><a href = "#">Australia</a></li>
+                        <li><a href = "#">Maldives</a></li>
+                        <li><a href = "#">Switzerland</a></li>
+                        <li><a href = "#">Germany</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+    </body>
+</html>
